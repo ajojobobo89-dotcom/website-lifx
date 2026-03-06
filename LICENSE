@@ -18,6 +18,6 @@ Terima kasih atas minat Anda untuk berkontribusi ke Web Downloader!
 ### Setup
 
 ```bash
-git clone https://github.com/username/web-downloader.git
+git clone https://github.com/ajojobobo89-dotcom/website-lifx.git
 cd web-downloader
 npm install
