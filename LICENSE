@@ -1,0 +1,23 @@
+
+## **CONTRIBUTING.md**
+```markdown
+# Panduan Kontribusi
+
+Terima kasih atas minat Anda untuk berkontribusi ke Web Downloader!
+
+## Proses Kontribusi
+
+1. Fork repository
+2. Buat branch fitur (`git checkout -b fitur-keren`)
+3. Commit perubahan (`git commit -m 'Add fitur keren'`)
+4. Push ke branch (`git push origin fitur-keren`)
+5. Buat Pull Request
+
+## Panduan Development
+
+### Setup
+
+```bash
+git clone https://github.com/username/web-downloader.git
+cd web-downloader
+npm install
