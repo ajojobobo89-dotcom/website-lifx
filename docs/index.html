@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Web Downloader - Library Node.js</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body { font-family: sans-serif; max-width: 800px; margin: 0 auto; padding: 20px; }
+        pre { background: #f4f4f4; padding: 10px; border-radius: 5px; }
+        code { background: #f4f4f4; padding: 2px 5px; border-radius: 3px; }
+        .btn { display: inline-block; padding: 10px 20px; background: #0070f3; color: white; text-decoration: none; border-radius: 5px; }
+    </style>
+</head>
+<body>
+    <h1>📥 Web Downloader</h1>
+    <p><strong>Library Node.js untuk mendownload konten web dengan mudah</strong></p>
+    
+    <a href="https://github.com/ajojobobo89-dotcom/website-lifx" class="btn">GitHub</a>
+    <a href="#install" class="btn">Instalasi</a>
+    
+    <hr>
+    
+    <h2 id="install">Instalasi</h2>
+    <pre><code>npm install website-lifx</code></pre>
+    
+    <h2>Contoh Penggunaan</h2>
+    <pre><code>const WebDownloader = require('website-lifx');
+const downloader = new WebDownloader();
+
+// Download HTML
+downloader.downloadHTML('https://example.com')
+    .then(result => console.log(result.title))
+    .catch(error => console.error(error));</code></pre>
+    
+    <h2>Fitur</h2>
+    <ul>
+        <li>✅ Download HTML dengan parsing otomatis</li>
+        <li>✅ Download file ke disk</li>
+        <li>✅ Ekstrak links dan images</li>
+        <li>✅ Multiple URLs parallel</li>
+        <li>✅ Custom headers & timeout</li>
+    </ul>
+    
+    <h2>Lisensi</h2>
+    <p>MIT © 2024</p>
+    
+    <hr>
+    <p>📖 <a href="https://github.com/ajojobobo89-dotcom/website-lifx/blob/main/README.md">Baca Dokumentasi Lengkap</a></p>
+</body>
+</html>
